@@ -11,11 +11,9 @@
 a{
     text-decoration: none;
 }
-
 ul{
     list-style-type: none;
 }
-
 .container{
     width: calc(100% - 120px);
     margin: auto;
