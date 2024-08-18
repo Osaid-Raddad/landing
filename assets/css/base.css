@@ -19,5 +19,11 @@ ul{
 .container{
     width: calc(100% - 120px);
     margin: auto;
-    background-color: aqua;
+   
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
