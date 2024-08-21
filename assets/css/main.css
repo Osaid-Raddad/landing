@@ -5,13 +5,16 @@ body{
     background-color: #eee;
 }
 
+.menu{
+    display: none;
+}
+
 .header{
  background-color: #fff;
  padding: 20PX 0;
 }
 
 .header .logo{
- 
     display: flex;
     align-items: center;
     gap: 2px;
@@ -62,3 +65,19 @@ body{
     background-color: var(--mainColor);
     border: 2px solid var(--mainColor);
 }
+
+/* Media Header */
+
+@media screen and (max-width: 992px){
+
+    .nav{
+        display: none;
+    }
+    .menu{
+        display: block;
+        order: 2;
+    }
+
+
+}
+
